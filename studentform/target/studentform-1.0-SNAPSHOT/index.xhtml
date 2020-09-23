@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+             
+        
+<html
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+          
+
+    
+
+    <h:head>
+        
+       
+        <title> Student Registration</title>
+         
+          <link href="bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+          <link href="bootstrap-3.4.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <style>
+             .error{color:red}
+        </style>
+    </h:head>
+    <h:body>
+        <div class="container">
+        <div class="navbar navbar-inverse">
+            <div class="navbar-brand"> Student Registration Form</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-xs-updated">
+                <h:form styleClass="form-horizontal">
+                    
+                    
+                    
+                    <div class="form-group">
+                        <h:outputLabel value="First name: " styleClass="control-label col-sm-2" />
+                        <div class="col-sm-5">
+                            <h:inputText value="#{st.firstname}" styleClass="form-control" required="true" requiredMessage="Field not allowed blank !"/>
+                             <h:message for="Fisrtname" styleClass="error" style="color:red"></h:message>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="form-group">
+                        <h:outputLabel value="Middle name: " styleClass="control-label col-sm-2" />
+                        <div class="col-sm-5">
+                            <h:inputText value="#{st.middlename}" styleClass="form-control" />
+                        </div>
+                    </div>
+                    <!-- Last Name -->
+                    <div class="form-group">
+                        <h:outputLabel value="Last name: " styleClass="control-label col-sm-2" />
+                        <div class="col-sm-5">
+                            <h:inputText value="#{st.lastname}" styleClass="form-control" rendered="true" requiredMessage="Filed not allowed blank !"/>
+                             <h:message for="Lastname" styleClass="error"></h:message>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                       <h:outputLabel for="faculty" value="Faculty: " styleClass="control-label col-sm-2"/>  
+                       <div class="col-sm-3">
+                           <h:selectOneMenu id="faculty" value="#{st.faculty}" rendered="true">  
+                           <f:ajax listener="#{st.onFacultyChange()}" render="program" event="valueChange"/>  
+                        <f:selectItem itemLabel="Select Faculty" itemValue="" noSelectionOption="true" />  
+                        <f:selectItems value="#{st.facultyOptions}" />  
+                        </h:selectOneMenu>  
+                            <h:message for="faculty" styleClass="error"></h:message>
+                       </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <h:outputLabel for="program" value="Program: " styleClass="control-label col-sm-2"/>  
+                        <div class="col-sm-5">
+                            <h:selectOneMenu id="program" value="#{st.program}" rendered="true">  
+                            <f:selectItem itemLabel="Select Program" itemValue="" noSelectionOption="true" />  
+                            <f:selectItems value="#{st.programOptions}" />  
+                        </h:selectOneMenu>  
+                             <h:message for="program" styleClass="error"></h:message>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <h:commandButton value="Save" action="#{st.save()}" styleClass="btn btn-default"/>
+                        </div>
+                    </div>
+                </h:form>
+            </div>
+            
+             <h:dataTable id="resulttable" value="#{st.studentList}" var="student" border="1"  styleClass="table table-striped">
+                <h:column>
+                    <f:facet name="header">First name</f:facet>
+                    #{student.firstname}
+                </h:column>
+                 <h:column>
+                    <f:facet name="header">Middle name</f:facet>
+                    #{student.middlename}
+                </h:column>
+                 <h:column>
+                    <f:facet name="header">Last name</f:facet>
+                    #{student.lastname}
+                </h:column>
+                 <h:column>
+                    <f:facet name="header">Faculty</f:facet>
+                    #{student.faculty}
+                </h:column>
+                 <h:column>
+                    <f:facet name="header">Program</f:facet>
+                    #{student.program}
+                </h:column>
+                 <h:column>
+                <f:facet name="header">Action</f:facet>
+                <h:form>
+                    <h:commandLink value = "Delete" action="#{student.delete(student)}"   ></h:commandLink> 
+                    
+                    <h:commandLink value = "Edit" action="#{student.edit(student)}"   ></h:commandLink> 
+
+                </h:form>
+            </h:column>
+            
+            </h:dataTable>
+             
+        </div>
+    </div> 
+        
+        
+    </h:body>
+</html>

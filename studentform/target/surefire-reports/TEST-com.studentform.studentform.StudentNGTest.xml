@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="17" failures="17" name="com.studentform.studentform.StudentNGTest" time="0.03" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Sabnam\Desktop\Intern\studentform"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Sabnam\Desktop\Intern\studentform"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="netbeans.deploy" value="true"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sabnam\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\netbeans\java\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Android;C:\Windows\System32;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\Sabnam\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\bin;;."/>
+    <property name="maven.conf" value="C:\netbeans\java\maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\netbeans\java\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Sabnam"/>
+    <property name="user.timezone" value="Asia/Katmandu"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Sabnam"/>
+    <property name="java.class.path" value="C:\netbeans\java\maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dnetbeans.deploy=true -Dnetbeans.deploy.clientUrlPart=/faces/index.xhtml -Dmaven.ext.class.path=C:\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\netbeans\java\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="netbeans.deploy.clientUrlPart" value="/faces/index.xhtml"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testGetData" time="0.013">
+    <failure message="Maps not equal: expected: null and actual: {}" type="java.lang.AssertionError">java.lang.AssertionError: Maps not equal: expected: null and actual: {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertEquals(Assert.java:822)
+	at com.studentform.studentform.StudentNGTest.testGetData(StudentNGTest.java:246)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@45fe3ee3
+getData
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testGetFaculty" time="0">
+    <failure message="expected [] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.studentform.studentform.StudentNGTest.testGetFaculty(StudentNGTest.java:180)
+</failure>
+    <system-out>getFaculty
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testGetFacultyOptions" time="0">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testGetFacultyOptions(StudentNGTest.java:47)
+</failure>
+    <system-out>getFacultyOptions
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testGetFirstname" time="0">
+    <failure message="expected [] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.studentform.studentform.StudentNGTest.testGetFirstname(StudentNGTest.java:99)
+</failure>
+    <system-out>getFirstname
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testGetLastname" time="0.001">
+    <failure message="expected [] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.studentform.studentform.StudentNGTest.testGetLastname(StudentNGTest.java:153)
+</failure>
+    <system-out>getLastname
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testGetMiddlename" time="0.001">
+    <failure message="expected [] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.studentform.studentform.StudentNGTest.testGetMiddlename(StudentNGTest.java:126)
+</failure>
+    <system-out>getMiddlename
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testGetProgram" time="0.001">
+    <failure message="expected [] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.studentform.studentform.StudentNGTest.testGetProgram(StudentNGTest.java:207)
+</failure>
+    <system-out>getProgram
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testGetProgramOptions" time="0">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testGetProgramOptions(StudentNGTest.java:74)
+</failure>
+    <system-out>getProgramOptions
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testInit" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testInit(StudentNGTest.java:234)
+</failure>
+    <system-out>init
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testOnFacultyChange" time="0.003">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testOnFacultyChange(StudentNGTest.java:260)
+</failure>
+    <system-out>onFacultyChange
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testSetFaculty" time="0.002">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetFaculty(StudentNGTest.java:195)
+</failure>
+    <system-out>setFaculty
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testSetFacultyOptions" time="0.004">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetFacultyOptions(StudentNGTest.java:60)
+</failure>
+    <system-out>setFacultyOptions
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testSetFirstname" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetFirstname(StudentNGTest.java:114)
+</failure>
+    <system-out>setFirstname
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testSetLastname" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetLastname(StudentNGTest.java:168)
+</failure>
+    <system-out>setLastname
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testSetMiddlename" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetMiddlename(StudentNGTest.java:141)
+</failure>
+    <system-out>setMiddlename
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testSetProgram" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetProgram(StudentNGTest.java:222)
+</failure>
+    <system-out>setProgram
+</system-out>
+  </testcase>
+  <testcase classname="com.studentform.studentform.StudentNGTest" name="testSetProgramOptions" time="0">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetProgramOptions(StudentNGTest.java:87)
+</failure>
+    <system-out>setProgramOptions
+</system-out>
+  </testcase>
+</testsuite>

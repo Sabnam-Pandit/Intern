@@ -1,0 +1,110 @@
+-------------------------------------------------------------------------------
+Test set: com.studentform.studentform.StudentNGTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 17, Errors: 0, Skipped: 0, Time elapsed: 0.687 sec <<< FAILURE!
+testGetData(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: Maps not equal: expected: null and actual: {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertEquals(Assert.java:822)
+	at com.studentform.studentform.StudentNGTest.testGetData(StudentNGTest.java:246)
+
+testGetFaculty(com.studentform.studentform.StudentNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.studentform.studentform.StudentNGTest.testGetFaculty(StudentNGTest.java:180)
+
+testGetFacultyOptions(com.studentform.studentform.StudentNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testGetFacultyOptions(StudentNGTest.java:47)
+
+testGetFirstname(com.studentform.studentform.StudentNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.studentform.studentform.StudentNGTest.testGetFirstname(StudentNGTest.java:99)
+
+testGetLastname(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.studentform.studentform.StudentNGTest.testGetLastname(StudentNGTest.java:153)
+
+testGetMiddlename(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.studentform.studentform.StudentNGTest.testGetMiddlename(StudentNGTest.java:126)
+
+testGetProgram(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.studentform.studentform.StudentNGTest.testGetProgram(StudentNGTest.java:207)
+
+testGetProgramOptions(com.studentform.studentform.StudentNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testGetProgramOptions(StudentNGTest.java:74)
+
+testInit(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testInit(StudentNGTest.java:234)
+
+testOnFacultyChange(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testOnFacultyChange(StudentNGTest.java:260)
+
+testSetFaculty(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetFaculty(StudentNGTest.java:195)
+
+testSetFacultyOptions(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetFacultyOptions(StudentNGTest.java:60)
+
+testSetFirstname(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetFirstname(StudentNGTest.java:114)
+
+testSetLastname(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetLastname(StudentNGTest.java:168)
+
+testSetMiddlename(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetMiddlename(StudentNGTest.java:141)
+
+testSetProgram(com.studentform.studentform.StudentNGTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetProgram(StudentNGTest.java:222)
+
+testSetProgramOptions(com.studentform.studentform.StudentNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.studentform.studentform.StudentNGTest.testSetProgramOptions(StudentNGTest.java:87)
+

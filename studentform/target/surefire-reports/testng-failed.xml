@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.studentform.studentform.StudentNGTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.studentform.studentform.StudentNGTest">
+        <methods>
+          <include name="testGetProgramOptions"/>
+          <include name="testGetFirstname"/>
+          <include name="testGetProgram"/>
+          <include name="testGetFaculty"/>
+          <include name="testSetFacultyOptions"/>
+          <include name="tearDownMethod"/>
+          <include name="testGetFacultyOptions"/>
+          <include name="setUpClass"/>
+          <include name="testSetLastname"/>
+          <include name="testInit"/>
+          <include name="testGetMiddlename"/>
+          <include name="testSetFirstname"/>
+          <include name="testOnFacultyChange"/>
+          <include name="testSetProgramOptions"/>
+          <include name="testGetData"/>
+          <include name="testGetLastname"/>
+          <include name="setUpMethod"/>
+          <include name="testSetFaculty"/>
+          <include name="testSetMiddlename"/>
+          <include name="testSetProgram"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.studentform.studentform.StudentNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.studentform.studentform.StudentNGTest] -->
